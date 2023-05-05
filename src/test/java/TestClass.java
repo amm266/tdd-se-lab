@@ -8,13 +8,13 @@ class TestClass {
         Rectangle rectangle = new Rectangle();
         rectangle.setHeight(30);
         rectangle.setWidth(20);
-        assertEquals(600, rectangle.CalculateArea());
+        assertEquals(600, rectangle.calculateArea());
     }
     @Test
-    void CalculateRectangleArea(){
+    void CalculateSquareArea(){
         Square square = new Square();
         square.setLength(20);
-        assertEquals(400, square.CalculateArea());
+        assertEquals(400, square.calculateArea());
     }
 
 }
