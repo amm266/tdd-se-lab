@@ -16,5 +16,4 @@ class TestClass {
         square.setLength(20);
         assertEquals(400, square.calculateArea());
     }
-
 }
